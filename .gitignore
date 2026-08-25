@@ -1,0 +1,33 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Environment and secrets
+.env
+*.pem
+*credentials*.json
+*service-account*.json
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+.history/
+
+# Local benchmark data (keep proprietary dumps out of git)
+week_*_accuracy/
+week_*_accuracy*/
+verifier_checks/
+prompt_unifier/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Large outputs
+*_judged.csv
+!samples/

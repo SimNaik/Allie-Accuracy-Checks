@@ -1,0 +1,3 @@
+combined_input,bot_response_solution,gemini_response,qa_complete_context,theory_complete_context,image_url,label
+"What is the oxidation state of sulfur in H2SO4?","The oxidation state of sulfur in sulfuric acid is +6.","Sulfur has oxidation state +6 in H2SO4.","Q: Oxidation state in H2SO4? A: +6","Sulfuric acid: sulfur is in +6 oxidation state.",,CORRECT
+"Find the equivalent weight of KMnO4 in acidic medium","Equivalent weight = molecular weight / 5 = 158/5 = 31.6 g","In acidic medium KMnO4 gains 5 electrons; eq. wt = M/5.","Q: Eq. wt of KMnO4 in acid? A: M/5","Permanganate in acidic solution undergoes 5-electron reduction.",,CORRECT

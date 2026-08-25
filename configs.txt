@@ -1,0 +1,13 @@
+# Example judge run (from repo root)
+
+cd judge_pipeline
+
+python run_judge.py \
+  --input_csv ../samples/sample_input.csv \
+  --output_csv ../samples/sample_input_judged.csv
+
+# LiteLLM defaults for Gemini 3+ (when top_k/top_p/temp/max aren't specified):
+#   temperature = 1.0
+#   max_output_tokens = 256
+#   top_p = 0.95
+#   top_k = 40
